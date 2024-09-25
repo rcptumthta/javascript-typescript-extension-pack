@@ -18,6 +18,8 @@
     "npm": ">=10"
   },
   "devDependencies": {
+    "@types/node": "22.7.0",
+    "@types/vscode": "1.93.0",
     "typescript": "5.3.3"
   }
 }
