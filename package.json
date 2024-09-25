@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "name": "javascript-typescript-extension-pack",
+  "displayName": "Javascript/Typescript Extension Pack",
+  "description": "A collection of extensions for Javascript and Typescript development",
+  "publisher": "rcptumthta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcptumthta/javascript-typescript-extension-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rcptumthta/javascript-typescript-extension-pack/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "^20",
+    "npm": ">=10"
+  }
+}
