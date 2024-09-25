@@ -17,9 +17,25 @@
     "node": "^20",
     "npm": ">=10"
   },
+  "scripts": {
+    "lint": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts}",
+    "lint:fix": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts} --fix"
+  },
   "devDependencies": {
     "@types/node": "22.7.0",
     "@types/vscode": "1.93.0",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "eslint": "8.57.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-jsonc": "2.16.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-promise": "7.1.0",
+    "eslint-plugin-sonarjs": "2.0.2",
+    "eslint-plugin-unicorn": "55.0.0",
+    "eslint-plugin-unused-imports": "3.2.0",
+    "jsonc-eslint-parser": "2.4.0",
+    "prettier": "3.3.3",
     "typescript": "5.3.3"
   }
 }
