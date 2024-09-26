@@ -14,7 +14,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts}",
-    "lint:fix": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts} --fix"
+    "lint:fix": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts} --fix",
+    "package": "webpack --mode production"
   },
   "devDependencies": {
     "@types/eslint": "9.6.1",
@@ -48,7 +49,49 @@
   "private": true,
   "engines": {
     "node": "^20",
-    "npm": ">=10"
+    "npm": ">=10",
+    "vscode": "^1.93.0"
   },
-  "main": "./dist/extension.js"
+  "main": "./dist/extension.js",
+  "icon": "./assets/images/logo.png",
+  "galleryBanner": {
+    "color": "#FF2255",
+    "theme": "light"
+  },
+  "keywords": [
+    "javascript",
+    "typescript"
+  ],
+  "categories": [
+    "Extension Packs",
+    "Other"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "category": "Javascript/Typescript",
+        "command": "javascript-typescript-extension-pack.generate-configuration",
+        "title": "Generate configuration for workspace"
+      }
+    ]
+  },
+  "extensionPack": [
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "formulahendry.auto-complete-tag",
+    "imgildev.vscode-auto-barrel",
+    "kamikillerto.vscode-colorize",
+    "meganrogge.template-string-converter",
+    "mkxml.vscode-filesize",
+    "sburg.vscode-javascript-booster",
+    "streetsidesoftware.code-spell-checker",
+    "toanchivu.tcv-typescript-constructor-generator",
+    "vincaslt.highlight-matching-tag",
+    "visualstudioexptteam.vscodeintellicode",
+    "xabikos.javascriptsnippets",
+    "yassineldeeb.env-typings",
+    "yoavbls.pretty-ts-errors",
+    "z0gsh1u.vscode-ts-getset"
+  ]
 }
