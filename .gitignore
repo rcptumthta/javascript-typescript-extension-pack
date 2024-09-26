@@ -1,6 +1,9 @@
 # Dependencies directory
 node_modules/*
 
+# Compiled directory
+dist/*
+
 # Editor directory and files
 .vscode/*
 !.vscode/extensions.json
