@@ -1,4 +1,4 @@
-export function javascriptConfigurationConstant(useSingleQuotes: boolean) {
+export function javascriptConfigurationConstant(useSingleQuotes: boolean): object {
   const activationOnLanguage: string[] = [
     "csv",
     "handlebars",

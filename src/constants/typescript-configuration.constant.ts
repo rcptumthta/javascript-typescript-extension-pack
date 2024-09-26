@@ -1,4 +1,4 @@
-export function typescriptConfigurationConstant(useSingleQuotes: boolean) {
+export function typescriptConfigurationConstant(useSingleQuotes: boolean): object {
   const activationOnLanguage: string[] = [
     "csv",
     "handlebars",

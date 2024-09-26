@@ -11,8 +11,8 @@ export function generateJavascriptConfigurationDisposable(): vscode.Disposable {
       const quoteType: QuoteTypeQuickPick = await showQuoteTypeQuickPick();
 
       if (quoteType !== null && quoteType !== undefined) {
-        const jsConfiguration = javascriptConfigurationConstant(quoteType.value);
-        const tsConfiguration = typescriptConfigurationConstant(quoteType.value);
+        const jsConfiguration: object = javascriptConfigurationConstant(quoteType.value);
+        const tsConfiguration: object = typescriptConfigurationConstant(quoteType.value);
         const jsKeys: string[] = Object.keys(jsConfiguration);
         const tsKeys: string[] = Object.keys(tsConfiguration);
         const keys: string[] = tsKeys.filter((key: string): boolean => {

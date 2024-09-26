@@ -11,7 +11,7 @@ export function generateTypescriptConfigurationDisposable(): vscode.Disposable {
       const quoteType: QuoteTypeQuickPick = await showQuoteTypeQuickPick();
 
       if (quoteType !== null && quoteType !== undefined) {
-        const configuration = typescriptConfigurationConstant(quoteType.value);
+        const configuration: object = typescriptConfigurationConstant(quoteType.value);
 
         for (const [key, value] of Object.entries(configuration)) {
           vscode.workspace.getConfiguration().update(key, value, vscode.ConfigurationTarget.Workspace);
