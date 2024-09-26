@@ -29,6 +29,7 @@
     "paths": {
       "@constant": ["./src/constants"],
       "@disposable": ["./src/disposables"],
+      "@function": ["./src/functions"],
       "@model": ["./src/models"]
     },
     "removeComments": true,
