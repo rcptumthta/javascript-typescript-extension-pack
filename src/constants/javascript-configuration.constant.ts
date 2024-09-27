@@ -74,6 +74,10 @@ export function javascriptConfigurationConstant(useSingleQuotes: boolean): objec
     "template-string-converter.autoRemoveTemplateString": true,
     "template-string-converter.quoteType": useSingleQuotes ? "single" : "double",
     "template-string-converter.validLanguages": ["javascript", "javascriptreact", "svelte", "vue"],
+    "turboConsoleLog.addSemicolonInTheEnd": true,
+    "turboConsoleLog.insertEmptyLineAfterLogMessage": true,
+    // eslint-disable-next-line prettier/prettier
+    "turboConsoleLog.quote": useSingleQuotes ? "'" : "\"",
     "vsintellicode.java.completionsEnabled": false,
     "vsintellicode.python.completionsEnabled": false
   };

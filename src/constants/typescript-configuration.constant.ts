@@ -85,6 +85,10 @@ export function typescriptConfigurationConstant(useSingleQuotes: boolean): objec
       "typescriptreact",
       "vue"
     ],
+    "turboConsoleLog.addSemicolonInTheEnd": true,
+    "turboConsoleLog.insertEmptyLineAfterLogMessage": true,
+    // eslint-disable-next-line prettier/prettier
+    "turboConsoleLog.quote": useSingleQuotes ? "'" : "\"",
     "typescript.inlayHints.enumMemberValues.enabled": true,
     "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
     "typescript.inlayHints.parameterNames.enabled": "all",
