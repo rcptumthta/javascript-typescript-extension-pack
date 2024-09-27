@@ -3,6 +3,10 @@
   "name": "javascript-typescript-extension-pack",
   "displayName": "Javascript/Typescript Extension Pack",
   "description": "A collection of extensions for Javascript and Typescript development",
+  "author": {
+    "name": "Ratchapol Thongta",
+    "email": "rcptumthta@outlook.com"
+  },
   "publisher": "rcptumthta",
   "repository": {
     "type": "git",
@@ -69,13 +73,14 @@
   "contributes": {
     "commands": [
       {
-        "category": "Javascript/Typescript",
         "command": "javascript-typescript-extension-pack.generate-configuration",
+        "category": "Javascript/Typescript",
         "title": "Generate configuration for workspace"
       }
     ]
   },
   "extensionPack": [
+    "chakrounanas.turbo-console-log",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
