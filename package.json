@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "javascript-typescript-extension-pack",
   "displayName": "Javascript/Typescript Extension Pack",
   "description": "A collection of extensions for Javascript and Typescript development",
@@ -8,6 +8,7 @@
     "email": "rcptumthta@outlook.com"
   },
   "publisher": "rcptumthta",
+  "homepage": "https://github.com/rcptumthta/javascript-typescript-extension-pack#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/rcptumthta/javascript-typescript-extension-pack.git"
@@ -64,6 +65,7 @@
   },
   "keywords": ["javascript", "typescript"],
   "categories": ["Extension Packs", "Other"],
+  "activationEvents": [],
   "contributes": {
     "commands": [
       {
