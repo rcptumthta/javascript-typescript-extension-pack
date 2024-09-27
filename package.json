@@ -62,14 +62,8 @@
     "color": "#FF2255",
     "theme": "light"
   },
-  "keywords": [
-    "javascript",
-    "typescript"
-  ],
-  "categories": [
-    "Extension Packs",
-    "Other"
-  ],
+  "keywords": ["javascript", "typescript"],
+  "categories": ["Extension Packs", "Other"],
   "contributes": {
     "commands": [
       {
