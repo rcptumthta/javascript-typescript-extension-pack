@@ -14,6 +14,8 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
 2. Search for `Javascript/Typescript: Generate configuration for workspace`
 3. Run the command and select the options you want to use
 
+![How to use](./assets/gif/how-to-use.gif)
+
 ### ⚙️ Configurations
 
 1. Javascript
