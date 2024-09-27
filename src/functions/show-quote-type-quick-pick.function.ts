@@ -6,11 +6,11 @@ export function showQuoteTypeQuickPick(): Thenable<QuoteTypeQuickPick> {
   return vscode.window.showQuickPick(
     [
       new QuoteTypeQuickPick({
-        label: "Double",
+        label: "Double quotes",
         value: false
       }),
       new QuoteTypeQuickPick({
-        label: "Single",
+        label: "Single quotes",
         value: true
       })
     ],
