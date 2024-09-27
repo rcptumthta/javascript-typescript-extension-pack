@@ -65,7 +65,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
        "xsl"
      ],
      "autoBarrel.files.includeExtensionOnExport": ["js", "jsx"],
-     "autoBarrel.formatting.useSingleQuotes": true | false,
+     "autoBarrel.formatting.useSingleQuotes": "<option you chose>", // true or false
      "autoBarrel.language.defaultLanguage": "JavaScript",
      "colorize.colorized_variables": ["CSS", "LESS", "SASS", "STYLUS"],
      "colorize.enable_search_variables": true,
@@ -111,11 +111,11 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
      "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
      "javascript.inlayHints.variableTypes.enabled": true,
      "template-string-converter.autoRemoveTemplateString": true,
-     "template-string-converter.quoteType": "single" | "double",
+     "template-string-converter.quoteType": "<option you chose>", // "single" or "double"
      "template-string-converter.validLanguages": ["javascript", "javascriptreact", "svelte", "vue"],
      "turboConsoleLog.addSemicolonInTheEnd": true,
      "turboConsoleLog.insertEmptyLineAfterLogMessage": true,
-     "turboConsoleLog.quote": "'" | "\"",
+     "turboConsoleLog.quote": "<option you chose>", // "'" or "\""
      "vsintellicode.java.completionsEnabled": false,
      "vsintellicode.python.completionsEnabled": false
    }
@@ -174,7 +174,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
        "xsl"
      ],
      "autoBarrel.files.includeExtensionOnExport": ["ts", "tsx"],
-     "autoBarrel.formatting.useSingleQuotes": true | false,
+     "autoBarrel.formatting.useSingleQuotes": "<option you chose>", // true or false
      "autoBarrel.language.defaultLanguage": "TypeScript",
      "colorize.colorized_variables": ["CSS", "LESS", "SASS", "STYLUS"],
      "colorize.enable_search_variables": true,
@@ -222,7 +222,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
      "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
      "javascript.inlayHints.variableTypes.enabled": true,
      "template-string-converter.autoRemoveTemplateString": true,
-     "template-string-converter.quoteType": "single" | "double",
+     "template-string-converter.quoteType": "<option you chose>", // "single" or "double"
      "template-string-converter.validLanguages": [
        "javascript",
        "javascriptreact",
@@ -233,7 +233,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
      ],
      "turboConsoleLog.addSemicolonInTheEnd": true,
      "turboConsoleLog.insertEmptyLineAfterLogMessage": true,
-     "turboConsoleLog.quote": "'" | "\"",
+     "turboConsoleLog.quote": "<option you chose>", // "'" or "\""
      "typescript.inlayHints.enumMemberValues.enabled": true,
      "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
      "typescript.inlayHints.parameterNames.enabled": "all",
