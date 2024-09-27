@@ -1,0 +1,31 @@
+# Dependencies directory
+node_modules/**
+
+# Source directory
+src/**
+
+# Github directory
+.github/**
+
+# Editor directories
+.vscode/**
+.vscode-test/**
+
+# Javascript files
+.eslintrc.js
+.prettierrc.js
+webpack.config.js
+
+# Json files
+tsconfig.json
+
+# RC files
+.npmrc
+
+# Configuration files
+.editorconfig
+
+# Ignore files
+.eslintignore
+.gitignore
+.prettierignore
