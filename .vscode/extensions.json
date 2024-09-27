@@ -1,7 +1,7 @@
 {
   "recommendations": [
     "amodio.tsl-problem-matcher",
-    "dbaeumer.vscode-eslint",
-    "ms-vscode.extension-test-runner"
+    "ms-vscode.extension-test-runner",
+    "rcptumthta.javascript-typescript-extension-pack"
   ]
 }
