@@ -1,4 +1,5 @@
 {
+  "abracadabra.ignoredPatterns": ["dist/*"],
   "auto-close-tag.activationOnLanguage": [
     "javascript",
     "json",
@@ -36,6 +37,7 @@
   "cSpell.ignoreRegExpList": ["/[\\u0E00-\\u0E7F]/g"],
   "cSpell.language": "en-US",
   "cSpell.words": [
+    "aykutsarac",
     "brotli",
     "chakrounanas",
     "davidanson",
@@ -48,16 +50,15 @@
     "imgildev",
     "intellicode",
     "javascriptsnippets",
+    "jsoncrack",
     "kamikillerto",
+    "kisstkondoros",
     "meganrogge",
     "mkxml",
-    "nestjs",
-    "nextjs",
-    "nuxtjs",
+    "nicoespeon",
     "rcptumthta",
     "ratchapol",
     "rgba",
-    "sburg",
     "sonarjs",
     "thongta",
     "toanchivu",
@@ -91,6 +92,10 @@
   "javascript.inlayHints.parameterTypes.enabled": true,
   "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
   "javascript.inlayHints.variableTypes.enabled": true,
+  "search.exclude": {
+    "dist": true,
+    "node_modules": true
+  },
   "template-string-converter.autoRemoveTemplateString": true,
   "template-string-converter.quoteType": "double",
   "template-string-converter.validLanguages": ["javascript", "typescript"],
