@@ -25,6 +25,7 @@ export function typescriptConfigurationConstant(useSingleQuotes: boolean): objec
   ];
 
   return {
+    "abracadabra.ignoredPatterns": ["build/*", "compile/*", "dist/*", "out/*", "output/*"],
     "auto-close-tag.activationOnLanguage": activationOnLanguage,
     "auto-rename-tag.activationOnLanguage": activationOnLanguage,
     "autoBarrel.files.includeExtensionOnExport": ["ts", "tsx"],
@@ -75,6 +76,15 @@ export function typescriptConfigurationConstant(useSingleQuotes: boolean): objec
     "javascript.inlayHints.parameterTypes.enabled": true,
     "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
     "javascript.inlayHints.variableTypes.enabled": true,
+    "search.exclude": {
+      build: true,
+      compile: true,
+      coverage: true,
+      dist: true,
+      node_modules: true,
+      out: true,
+      output: true
+    },
     "template-string-converter.autoRemoveTemplateString": true,
     "template-string-converter.quoteType": useSingleQuotes ? "single" : "double",
     "template-string-converter.validLanguages": [
