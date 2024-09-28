@@ -22,6 +22,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
 
    ```json
    {
+     "abracadabra.ignoredPatterns": ["build/*", "compile/*", "dist/*", "out/*", "output/*"],
      "auto-close-tag.activationOnLanguage": [
        "csv",
        "handlebars",
@@ -112,6 +113,15 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
      "javascript.inlayHints.parameterTypes.enabled": true,
      "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
      "javascript.inlayHints.variableTypes.enabled": true,
+     "search.exclude": {
+       "build": true,
+       "compile": true,
+       "coverage": true,
+       "dist": true,
+       "node_modules": true,
+       "out": true,
+       "output": true
+     },
      "template-string-converter.autoRemoveTemplateString": true,
      "template-string-converter.quoteType": "<option you chose>", // "single" or "double"
      "template-string-converter.validLanguages": ["javascript", "javascriptreact", "svelte", "vue"],
@@ -127,6 +137,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
 
    ```json
    {
+     "abracadabra.ignoredPatterns": ["build/*", "compile/*", "dist/*", "out/*", "output/*"],
      "auto-close-tag.activationOnLanguage": [
        "csv",
        "handlebars",
@@ -223,6 +234,15 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
      "javascript.inlayHints.parameterTypes.enabled": true,
      "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
      "javascript.inlayHints.variableTypes.enabled": true,
+     "search.exclude": {
+       "build": true,
+       "compile": true,
+       "coverage": true,
+       "dist": true,
+       "node_modules": true,
+       "out": true,
+       "output": true
+     },
      "template-string-converter.autoRemoveTemplateString": true,
      "template-string-converter.quoteType": "<option you chose>", // "single" or "double"
      "template-string-converter.validLanguages": [
@@ -266,7 +286,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
 
 | Extension Name                                                                                                                         | Description                                                                            |
 |----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)                              | Boost your productivity with advanced JavaScript/TypeScript refactorings and commands  |
+| [Abracadabra, refactor this!](https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabra)                              | Automated refactorings for VS Code, in JavaScript and TypeScript                       |
 
 ### 🔗 Code Snippets
 
@@ -304,6 +324,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
 |----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [grepc: Regex Highlighting](https://marketplace.visualstudio.com/items?itemName=stneveadomi.grepc)                                     | An approachable regular expression highlighter with advanced customization for VS Code |
 | [filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)                                                  | Show the current file size in the status bar                                           |
+| [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)                               | Shows image preview in the gutter and on hover                                         |
 | [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)                                           | A vscode extension to help visualize css colors in files                               |
 | [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)                          | Highlights matching closing and opening tags                                           |
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)                              | EditorConfig Support for Visual Studio Code                                            |
