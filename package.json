@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "name": "javascript-typescript-extension-pack",
   "displayName": "Javascript/Typescript Extension Pack",
   "description": "A collection of extensions for Javascript and Typescript development",
@@ -63,9 +63,17 @@
     "color": "#FF2255",
     "theme": "light"
   },
-  "keywords": ["javascript", "typescript"],
+  "keywords": [
+    "backend",
+    "bun",
+    "deno",
+    "frontend",
+    "javascript",
+    "nodejs",
+    "typescript"
+  ],
   "categories": ["Extension Packs", "Other"],
-  "activationEvents": [],
+  "activationEvents": ["onCommand:javascript-typescript-extension-pack.generate-configuration"],
   "contributes": {
     "commands": [
       {
@@ -76,6 +84,7 @@
     ]
   },
   "extensionPack": [
+    "aykutsarac.jsoncrack-vscode",
     "chakrounanas.turbo-console-log",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
@@ -83,9 +92,10 @@
     "formulahendry.auto-complete-tag",
     "imgildev.vscode-auto-barrel",
     "kamikillerto.vscode-colorize",
+    "kisstkondoros.vscode-gutter-preview",
     "meganrogge.template-string-converter",
     "mkxml.vscode-filesize",
-    "sburg.vscode-javascript-booster",
+    "nicoespeon.abracadabra",
     "streetsidesoftware.code-spell-checker",
     "toanchivu.tcv-typescript-constructor-generator",
     "vincaslt.highlight-matching-tag",
