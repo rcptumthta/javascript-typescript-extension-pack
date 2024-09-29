@@ -22,7 +22,6 @@ jobs:
       - name: Public extension
         run: npm run publish:open-vsx -- -p ${{ secrets.OVSX_ACCESS_TOKEN }}
   public-to-vsce-marketplace:
-    needs: build
     runs-on: ubuntu-latest
     strategy:
       matrix:
