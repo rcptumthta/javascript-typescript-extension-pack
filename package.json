@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "javascript-typescript-extension-pack",
   "displayName": "Javascript/Typescript Extension Pack",
   "description": "A collection of extensions for Javascript and Typescript development",
@@ -99,6 +99,7 @@
     "meganrogge.template-string-converter",
     "mkxml.vscode-filesize",
     "nicoespeon.abracadabra",
+    "stneveadomi.grepc",
     "streetsidesoftware.code-spell-checker",
     "toanchivu.tcv-typescript-constructor-generator",
     "vincaslt.highlight-matching-tag",
