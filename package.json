@@ -20,6 +20,8 @@
   "scripts": {
     "lint": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts}",
     "lint:fix": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts} --fix",
+    "publish:open-vsx": "ovsx publish --no-dependencies",
+    "publish:vsce-marketplace": "vsce publish --no-dependencies",
     "package": "webpack --mode production"
   },
   "devDependencies": {
@@ -42,6 +44,7 @@
     "eslint-webpack-plugin": "4.2.0",
     "fork-ts-checker-webpack-plugin": "9.0.2",
     "jsonc-eslint-parser": "2.4.0",
+    "ovsx": "0.9.5",
     "prettier": "3.3.3",
     "source-map-support": "0.5.21",
     "terser-webpack-plugin": "5.3.10",
