@@ -66,6 +66,7 @@ export function typescriptConfigurationConstant(useSingleQuotes: boolean): objec
     "cSpell.ignoreRegExpList": ["/[\\u0E00-\\u0E7F]/g"],
     "cSpell.language": "en-US",
     "cSpell.words": ["brotli", "filesize", "intellicode", "rcptumthta", "rgba", "vsintellicode"],
+    "dotenv.cloakIcon": "*",
     "filesize.showBrotli": true,
     "filesize.showGzipInStatusBar": true,
     "intellicodeApiExamples.loggingLevel": "ALL",
