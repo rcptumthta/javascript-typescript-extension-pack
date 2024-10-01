@@ -17,8 +17,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
         run: npm ci
-      - name: Build package
-        run: npm run package
+      - name: Build the package
+        run: npm run build:package
       - name: Public extension
         run: npm run publish:open-vsx -- -p ${{ secrets.OVSX_ACCESS_TOKEN }}
   public-to-vsce-marketplace:
@@ -35,8 +35,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
         run: npm ci
-      - name: Build package
-        run: npm run package
+      - name: Build the package
+        run: npm run build:package
       - name: Public extension
         run: npm run publish:vsce-marketplace
         env:
