@@ -103,6 +103,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
      "cSpell.ignoreRegExpList": ["/[\\u0E00-\\u0E7F]/g"],
      "cSpell.language": "en-US",
      "cSpell.words": ["brotli", "filesize", "intellicode", "rcptumthta", "rgba", "vsintellicode"],
+     "dotenv.cloakIcon": "*",
      "filesize.showBrotli": true,
      "filesize.showGzipInStatusBar": true,
      "intellicodeApiExamples.loggingLevel": "ALL",
@@ -224,6 +225,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
      "cSpell.ignoreRegExpList": ["/[\\u0E00-\\u0E7F]/g"],
      "cSpell.language": "en-US",
      "cSpell.words": ["brotli", "filesize", "intellicode", "rcptumthta", "rgba", "vsintellicode"],
+     "dotenv.cloakIcon": "*",
      "filesize.showBrotli": true,
      "filesize.showGzipInStatusBar": true,
      "intellicodeApiExamples.loggingLevel": "ALL",
@@ -272,64 +274,65 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
 
 ### 🤖 Artificial Intelligence
 
-|                                               Extension Name                                                                           |             Description                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)                              | AI assisted developer productivity                                                     |
+|                                               Extension Name                                                                           |             Description                                                                                                   |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)                              | AI assisted developer productivity                                                                                        |
 
 ### 🔡 Grammar
 
-| Extension Name                                                                                                                         | Description                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)                               | Make TypeScript errors prettier and more human-readable in VSCode                      |
+| Extension Name                                                                                                                         | Description                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)                               | Make TypeScript errors prettier and more human-readable in VSCode                                                         |
 
 ### Productivity
 
-| Extension Name                                                                                                                         | Description                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [Abracadabra, refactor this!](https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabra)                              | Automated refactorings for VS Code, in JavaScript and TypeScript                       |
+| Extension Name                                                                                                                         | Description                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [Abracadabra, refactor this!](https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabra)                              | Automated refactorings for VS Code, in JavaScript and TypeScript                                                          |
 
 ### 🔗 Code Snippets
 
-| Extension Name                                                                                                                         | Description                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)                       | Code snippets for JavaScript in ES6 syntax                                             |
+| Extension Name                                                                                                                         | Description                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)                       | Code snippets for JavaScript in ES6 syntax                                                                                |
 
 ### 🔬 Code Generator
 
-| Extension Name                                                                                                                         | Description                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [TypeScript constructor generator](https://marketplace.visualstudio.com/items?itemName=toanchivu.tcv-typescript-constructor-generator) | Auto generate constructor for TypeScript object in VS code                             |
-| [TypeScript GetSet](https://marketplace.visualstudio.com/items?itemName=z0gSh1u.vscode-ts-getset)                                      | TypeScript getter / setter generator based on AST                                      |
-| [TS Env Typings](https://marketplace.visualstudio.com/items?itemName=YassinEldeeb.env-typings)                                         | Automatically generate typings for process.env from your env file on save              |
-| [Auto Barrel for VSCode](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-auto-barrel)                              | Automatically generate index files for your project                                    |
-| [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)                                | Automating the process of writing meaningful log messages                              |
+| Extension Name                                                                                                                         | Description                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [TypeScript constructor generator](https://marketplace.visualstudio.com/items?itemName=toanchivu.tcv-typescript-constructor-generator) | Auto generate constructor for TypeScript object in VS code                                                                |
+| [TypeScript GetSet](https://marketplace.visualstudio.com/items?itemName=z0gSh1u.vscode-ts-getset)                                      | TypeScript getter / setter generator based on AST                                                                         |
+| [TS Env Typings](https://marketplace.visualstudio.com/items?itemName=YassinEldeeb.env-typings)                                         | Automatically generate typings for process.env from your env file on save                                                 |
+| [Auto Barrel for VSCode](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-auto-barrel)                              | Automatically generate index files for your project                                                                       |
+| [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)                                | Automating the process of writing meaningful log messages                                                                 |
 
 ### 📝 Template Productivity
 
-| Extension Name                                                                                                                         | Description                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)                               | Extension Packs to add close tag and rename paired tag automatically                   |
-| [Template String Converter](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter)                  | Converts a string to a template string                                                 |
+| Extension Name                                                                                                                         | Description                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)                               | Extension Packs to add close tag and rename paired tag automatically                                                      |
+| [Template String Converter](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter)                  | Converts a string to a template string                                                                                    |
 
 ### ✅ Code Analysis
 
-| Extension Name                                                                                                                         | Description                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                                                   | Integrates ESLint into VS Code                                                         |
-| [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)                                     | Markdown linting and style checking for Visual Studio Code                             |
+| Extension Name                                                                                                                         | Description                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                                                   | Integrates ESLint into VS Code                                                                                            |
+| [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)                                     | Markdown linting and style checking for Visual Studio Code                                                                |
 
 ### 💻 Workbench
 
-| Extension Name                                                                                                                         | Description                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [grepc: Regex Highlighting](https://marketplace.visualstudio.com/items?itemName=stneveadomi.grepc)                                     | An approachable regular expression highlighter with advanced customization for VS Code |
-| [filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)                                                  | Show the current file size in the status bar                                           |
-| [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)                               | Shows image preview in the gutter and on hover                                         |
-| [JSON Crack](https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode)                                          | Seamlessly visualize your JSON data instantly into graphs                              |
-| [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)                                           | A vscode extension to help visualize css colors in files                               |
-| [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)                          | Highlights matching closing and opening tags                                           |
-| [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)                              | EditorConfig Support for Visual Studio Code                                            |
-| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)                        | This extension provides a basic spell checker that works well with code and documents  |
+| Extension Name                                                                                                                         | Description                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [Dotenv Official +Vault](https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode)                                     | Official Dotenv. Syntax highlighting, auto-cloaking, auto-completion, in-code secret peeking, and optionally dotenv-vault |
+| [grepc: Regex Highlighting](https://marketplace.visualstudio.com/items?itemName=stneveadomi.grepc)                                     | An approachable regular expression highlighter with advanced customization for VS Code                                    |
+| [filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)                                                  | Show the current file size in the status bar                                                                              |
+| [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)                               | Shows image preview in the gutter and on hover                                                                            |
+| [JSON Crack](https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode)                                          | Seamlessly visualize your JSON data instantly into graphs                                                                 |
+| [colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)                                           | A vscode extension to help visualize css colors in files                                                                  |
+| [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)                          | Highlights matching closing and opening tags                                                                              |
+| [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)                              | EditorConfig Support for Visual Studio Code                                                                               |
+| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)                        | This extension provides a basic spell checker that works well with code and documents                                     |
 
 ## 📄 Credits
 
