@@ -20,9 +20,11 @@
   "scripts": {
     "lint": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts}",
     "lint:fix": "eslint ./**/*.{js,json,json5,jsonc,jsonl,ts} --fix",
+    "build": "webpack",
+    "build:package": "webpack --mode production",
+    "build:package-vsce": "vsce package",
     "publish:open-vsx": "ovsx publish --no-dependencies",
-    "publish:vsce-marketplace": "vsce publish --no-dependencies",
-    "package": "webpack --mode production"
+    "publish:vsce-marketplace": "vsce publish --no-dependencies"
   },
   "devDependencies": {
     "@types/eslint": "9.6.1",
@@ -91,6 +93,7 @@
     "chakrounanas.turbo-console-log",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
+    "dotenv.dotenv-vscode",
     "editorconfig.editorconfig",
     "formulahendry.auto-complete-tag",
     "imgildev.vscode-auto-barrel",
