@@ -2,7 +2,7 @@ export class QuoteTypeQuickPick {
   public label: string;
   public value: boolean;
 
-  public constructor(init: Required<QuoteTypeQuickPick>) {
-    Object.assign(this, init);
+  public constructor(initialize: Required<QuoteTypeQuickPick>) {
+    Object.assign(this, initialize);
   }
 }
