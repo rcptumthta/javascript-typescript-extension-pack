@@ -22,7 +22,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
 
    ```json
    {
-     "abracadabra.ignoredPatterns": ["build/*", "compile/*", "dist/*", "out/*", "output/*"],
+     "abracadabra.ignoredPatterns": ["build/*", "compile/*", "coverage/*", "dist/*", "out/*", "output/*"],
      "auto-close-tag.activationOnLanguage": [
        "csv",
        "handlebars",
@@ -138,7 +138,7 @@ This extension pack is a collection of JavaScript and TypeScript tools for Visua
 
    ```json
    {
-     "abracadabra.ignoredPatterns": ["build/*", "compile/*", "dist/*", "out/*", "output/*"],
+     "abracadabra.ignoredPatterns": ["build/*", "compile/*", "coverage/*", "dist/*", "out/*", "output/*"],
      "auto-close-tag.activationOnLanguage": [
        "csv",
        "handlebars",
