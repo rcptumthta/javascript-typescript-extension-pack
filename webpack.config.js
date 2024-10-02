@@ -16,7 +16,6 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     libraryTarget: "commonjs2"
   },
-  mode: "none",
   target: "node",
   devtool: "source-map",
   resolve: {
@@ -61,8 +60,5 @@ module.exports = {
       extensions: ["js", "ts"]
     }),
     new ForkTSCheckerWebpackPlugin()
-  ],
-  infrastructureLogging: {
-    level: "info"
-  }
+  ]
 };
