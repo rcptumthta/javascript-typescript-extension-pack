@@ -1,5 +1,4 @@
-import { javascriptConfigurationConstant, typescriptConfigurationConstant } from "@constant";
-import { showQuoteTypeQuickPick } from "@function";
+import { showQuoteTypeQuickPick, writeExtensionsFile, writeSettingsFile } from "@function";
 import { QuoteTypeQuickPick } from "@model";
 
 import * as vscode from "vscode";
@@ -11,23 +10,22 @@ export function generateJavascriptConfigurationDisposable(): vscode.Disposable {
       const quoteType: QuoteTypeQuickPick = await showQuoteTypeQuickPick();
 
       if (quoteType !== null && quoteType !== undefined) {
-        const jsConfiguration: object = javascriptConfigurationConstant(quoteType.value);
-        const tsConfiguration: object = typescriptConfigurationConstant(quoteType.value);
-        const jsKeys: string[] = Object.keys(jsConfiguration);
-        const tsKeys: string[] = Object.keys(tsConfiguration);
-        const keys: string[] = tsKeys.filter((key: string): boolean => {
-          return !jsKeys.includes(key);
-        });
+        const workspaceUrl: vscode.Uri = vscode.workspace.workspaceFolders?.at(0)?.uri;
 
-        for (const key of keys) {
-          vscode.workspace.getConfiguration().update(key, undefined, vscode.ConfigurationTarget.Workspace);
+        if (workspaceUrl === null || workspaceUrl === undefined) {
+          vscode.window.showErrorMessage("Workspace doesn't contain any folders");
+        } else {
+          try {
+            await writeExtensionsFile(workspaceUrl);
+            await writeSettingsFile("javascript", quoteType.value);
+
+            await vscode.window.showInformationMessage("Generate javascript configuration for workspace successfully");
+          } catch (error) {
+            if (error instanceof Error) {
+              await vscode.window.showErrorMessage(error.message);
+            }
+          }
         }
-
-        for (const [key, value] of Object.entries(jsConfiguration)) {
-          vscode.workspace.getConfiguration().update(key, value, vscode.ConfigurationTarget.Workspace);
-        }
-
-        await vscode.window.showInformationMessage("Generate javascript configuration for workspace successfully");
       }
     }
   );

@@ -1,5 +1,4 @@
-import { typescriptConfigurationConstant } from "@constant";
-import { showQuoteTypeQuickPick } from "@function";
+import { showQuoteTypeQuickPick, writeExtensionsFile, writeSettingsFile } from "@function";
 import { QuoteTypeQuickPick } from "@model";
 
 import * as vscode from "vscode";
@@ -11,13 +10,22 @@ export function generateTypescriptConfigurationDisposable(): vscode.Disposable {
       const quoteType: QuoteTypeQuickPick = await showQuoteTypeQuickPick();
 
       if (quoteType !== null && quoteType !== undefined) {
-        const configuration: object = typescriptConfigurationConstant(quoteType.value);
+        const workspaceUrl: vscode.Uri = vscode.workspace.workspaceFolders?.at(0)?.uri;
 
-        for (const [key, value] of Object.entries(configuration)) {
-          vscode.workspace.getConfiguration().update(key, value, vscode.ConfigurationTarget.Workspace);
+        if (workspaceUrl === null || workspaceUrl === undefined) {
+          vscode.window.showErrorMessage("Workspace doesn't contain any folders");
+        } else {
+          try {
+            await writeExtensionsFile(workspaceUrl);
+            await writeSettingsFile("typescript", quoteType.value);
+
+            await vscode.window.showInformationMessage("Generate typescript configuration for workspace successfully");
+          } catch (error) {
+            if (error instanceof Error) {
+              await vscode.window.showErrorMessage(error.message);
+            }
+          }
         }
-
-        await vscode.window.showInformationMessage("Generate typescript configuration for workspace successfully");
       }
     }
   );
