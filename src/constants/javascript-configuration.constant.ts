@@ -23,7 +23,7 @@ export function javascriptConfigurationConstant(useSingleQuotes: boolean): objec
   ];
 
   return {
-    "abracadabra.ignoredPatterns": ["build/*", "compile/*", "dist/*", "out/*", "output/*"],
+    "abracadabra.ignoredPatterns": ["build/*", "compile/*", "coverage/*", "dist/*", "out/*", "output/*"],
     "auto-close-tag.activationOnLanguage": activationOnLanguage,
     "auto-rename-tag.activationOnLanguage": activationOnLanguage,
     "autoBarrel.files.includeExtensionOnExport": ["js", "jsx"],
